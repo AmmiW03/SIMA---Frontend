@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Imgs/fondo-negro-verde.svg);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.lista option:hover {
+    background-color: #166949;
+    color: #212529;
+}
+
+.newsletter-form .selector-libro {
+    padding: 5px;
+}
+
+.selector-lector {
+    padding: 5px;
+}
+
+.extra{
+    padding: 5px;
+}
+
+.box{
+    width: 500px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    border: white;
+    border-radius: 50px;
+}
+
+
+
+
